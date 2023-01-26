@@ -20,7 +20,7 @@
                 <i class="fa-brands fa-instagram fa-xl "></i>
                 <label>Instagram</label>
             </div>
-            <div class="col-md-2 offset-md-9">
+            <div class="col-2 offset-sm-8  text-end">
                 <button type="button" class="btn btn-success" data-bs-toggle="modal"
                     data-bs-target="#exampleModal">Create a new post</button>
                 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
@@ -54,141 +54,155 @@
                         </div>
                     </div>
                 </div>
-                <label>
-                    <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            <i class="fa-solid fa-gear"></i>
-                        </button>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Profile</a></li>
-                            <li><a class="dropdown-item" href="#">Accesibility</a></li>
-                            <li><a class="dropdown-item border-bottom border-secondary" href="#">Privacy and Data</a>
-                            </li>
-                            <li><a class="dropdown-item text-danger" href="#">Log out</a></li>
-                        </ul>
-                    </div>
-                </label>
+            </div>
+            <div class="col-1 text-start">
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <i class="fa-solid fa-gear"></i>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Profile</a></li>
+                        <li><a class="dropdown-item" href="#">Accesibility</a></li>
+                        <li><a class="dropdown-item border-bottom border-secondary" href="#">Privacy and Data</a>
+                        </li>
+                        <li><a class="dropdown-item text-danger" href="#">Log out</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-1 mx-auto">
-                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <div class="col-10 mx-auto">
+                <ul class="nav nav-pills mb-3 justify-content-md-center" id="pills-tab" role="tablist">
                     <li class="nav-item" role="presentation">
-                      <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true"><i class="fa-solid fa-table-cells"></i></button>
+                        <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                            aria-selected="true"><i class="fa-solid fa-table-cells"></i></button>
                     </li>
                     <li class="nav-item" role="presentation">
-                      <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><i class="fa-solid fa-square"></i></button>
+                        <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                            aria-selected="false"><i class="fa-solid fa-square"></i></button>
                     </li>
-                  </ul>
+                </ul>
             </div>
         </div>
         <div class="tab-content" id="v-pills-tabcontent">
             <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
                 tabindex="0">
-                <div class="row p-1">
-                    <div class="col">
-                        <img class="object-fit-cover p-1" width="500px" height="500px"
+                <div class="row grid gap-1 justify-content-md-center">
+                    <div class="col-3">
+                        <img class="object-fit-cover img-fluid h-100" width="500px" height="500px"
                             src="https://static01.nyt.com/images/2022/05/10/science/28DOGS-BEHAVIOR1/28DOGS-BEHAVIOR1-mediumSquareAt3X-v2.jpg">
-                        <label>
-                            <img class="object-fit-cover p-1" width="500px" height="500px"
-                                src="https://www.istockphoto.com/resources/images/PhotoFTLP/1035146258.jpg">
-                            <img class="object-fit-cover p-1" width="500px" height="500px"
-                                src="https://imagenes.elpais.com/resizer/80diWYN93vyjDHho6yP5-4lkrvc=/1960x1470/cloudfront-eu-central-1.images.arcpublishing.com/prisa/44PQK7SPA4EDDOK7EOWSABMIXY.jpg">
-                        </label>
+                    </div>
+                    <div class="col-3 ">
+                        <img class="object-fit-fill img-fluid h-100" width="500px" height="500px"
+                            src="https://www.istockphoto.com/resources/images/PhotoFTLP/1035146258.jpg">
+                    </div>
+                    <div class="col-3">
+                        <img class="object-fit-cover img-fluid h-100" width="500px" height="500px"
+                            src="https://imagenes.elpais.com/resizer/80diWYN93vyjDHho6yP5-4lkrvc=/1960x1470/cloudfront-eu-central-1.images.arcpublishing.com/prisa/44PQK7SPA4EDDOK7EOWSABMIXY.jpg">
                     </div>
                 </div>
-                <div class="row p-1">
-                    <div class="col">
-                        <img class="object-fit-cover p-1" width="500px" height="500px"
-                            src="https://media.istockphoto.com/id/1353379051/photo/portrait-of-beautiful-mature-african-woman-looking-at-camera-outdoor.jpg?b=1&s=170667a&w=0&k=20&c=BZUbHXf0x6yAQiz6NX8gqauwEgrMlTQ0SqBI8qedH1g=">
-                        <label>
-                            <img class="object-fit-cover p-1" width="500px" height="500px"
+                    <div class="row grid gap-1 justify-content-md-center">
+                        <div class="col-3">
+                            <img class="object-fit-cover img-fluid h-100" width="500px" height="500px"
+                                src="https://media.istockphoto.com/id/1353379051/photo/portrait-of-beautiful-mature-african-woman-looking-at-camera-outdoor.jpg?b=1&s=170667a&w=0&k=20&c=BZUbHXf0x6yAQiz6NX8gqauwEgrMlTQ0SqBI8qedH1g=">
+                        </div>
+                        <div class="col-3 ">
+                            <img class="object-fit-cover img-fluid h-100" width="500px" height="500px"
                                 src="https://www.thetrainline.com/cms/media/1360/france-eiffel-tower-paris.jpg?mode=crop&width=1080&height=1080&quality=70">
-                            <img class="object-fit-cover p-1" width="500px" height="500px"
+                        </div>
+                        <div class="col-3 ">
+                            <img class="object-fit-cover img-fluid h-100" width="500px" height="500px"
                                 src="https://netstorage-sportsbrief.akamaized.net/images/d1ad4bf2b145af1d.jpg">
-                        </label>
+                        </div>
                     </div>
-                </div>
-                <div class="row p-1">
-                    <div class="col">
-                        <img class="object-fit-cover p-1" width="500px" height="500px"
-                            src="https://merriam-webster.com/assets/mw/images/article/art-wap-landing-mp-lg/family-of-four-7101-a234e9249b2c7223d4e4d8cd9432f9e9@1x.jpg">
-                        <label>
-                            <img class="object-fit-cover p-1" width="500px" height="500px"
+                    <div class="row grid gap-1 justify-content-md-center">
+                        <div class="col-3">
+                            <img class="object-fit-cover img-fluid h-100" width="500px" height="500px"
+                                src="https://merriam-webster.com/assets/mw/images/article/art-wap-landing-mp-lg/family-of-four-7101-a234e9249b2c7223d4e4d8cd9432f9e9@1x.jpg">
+                        </div>
+                        <div class="col-3">
+                            <img class="object-fit-cover img-fluid h-100" width="500px" height="500px"
                                 src="https://imageio.forbes.com/blogs-images/forbestechcouncil/files/2019/01/canva-photo-editor-8-7.jpg?format=jpg&width=960">
-                            <img class="object-fit-cover p-1" width="500px" height="500px"
+                        </div>
+                        <div class="col-3">
+                            <img class="object-fit-cover img-fluid h-100" width="500px" height="500px"
                                 src="https://www.collegiateparent.com/wp-content/uploads/2022/08/AdobeStock_429176281.jpg">
-                        </label>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
-                tabindex="0">
-                <div class="container-fluid">
-                    <div class="row p-2 justify-content-md-center">
-                        <div class="col-4 bg-light">
-                            <div class="row">
-                                <p class="text-start col-8">My Crazy dog Spark!</p>
-                                <label class="text-end col-4">08/26</label>
+        </div>
+        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+            <div class="container-fluid">
+                <div class="row p-2 justify-content-md-center">
+                    <div class="col-4 bg-light">
+                        <div class="row">
+                            <p class="text-start col-8">My Crazy dog Spark!</p>
+                            <label class="text-end col-4">08/26</label>
+                        </div>
+                        <img class="object-fit-cover img-fluid" width="550px" height="550px"
+                            src="https://static01.nyt.com/images/2022/05/10/science/28DOGS-BEHAVIOR1/28DOGS-BEHAVIOR1-mediumSquareAt3X-v2.jpg">
+                        <div class="row">
+                            <div class="col">
+                                <p class="fw-bold text-start">204 Likes</p>
                             </div>
-                            <img class="object-fit-cover" width="550px" height="550px"
-                                src="https://static01.nyt.com/images/2022/05/10/science/28DOGS-BEHAVIOR1/28DOGS-BEHAVIOR1-mediumSquareAt3X-v2.jpg">
-                            <div class="row">
-                                <div class="col">
-                                    <p class="fw-bold text-start">204 Likes</p>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col">
-                                    <p class="text-start">This is an example of a very good photo that you can post on Instagram</p>
-                                </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <p class="text-start">This is an example of a very good photo that you can post on
+                                    Instagram</p>
                             </div>
                         </div>
                     </div>
-                    <div class="row p-2 justify-content-md-center">
-                        <div class="col-4 bg-light">
-                            <div class="row">
-                                <p class="text-start col-8">SIUUUUUUUUUUUUUUUU</p>
-                                <label class="text-end col-4">04/14</label>
+                </div>
+                <div class="row p-2 justify-content-md-center">
+                    <div class="col-4 bg-light">
+                        <div class="row">
+                            <p class="text-start col-8">SIUUUUUUUUUUUUUUUU</p>
+                            <label class="text-end col-4">04/14</label>
+                        </div>
+                        <img class="object-fit-cover img-fluid" width="550px" height="550px"
+                            src="https://netstorage-sportsbrief.akamaized.net/images/d1ad4bf2b145af1d.jpg">
+                        <div class="row">
+                            <div class="col">
+                                <p class="fw-bold text-start">248 Likes</p>
                             </div>
-                            <img class="object-fit-cover" width="550px" height="550px"
-                                src="https://netstorage-sportsbrief.akamaized.net/images/d1ad4bf2b145af1d.jpg">
-                            <div class="row">
-                                <div class="col">
-                                    <p class="fw-bold text-start">248 Likes</p>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col">
-                                    <p class="text-start">This is an example of a very good photo that you can post on Instagram</p>
-                                </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <p class="text-start">This is an example of a very good photo that you can post on
+                                    Instagram</p>
                             </div>
                         </div>
                     </div>
-                    <div class="row p-2 justify-content-md-center">
-                        <div class="col-4 bg-light">
-                            <div class="row">
-                                <p class="text-start col-8">Coding is my passion</p>
-                                <label class="text-end col-4">04/12</label>
+                </div>
+                <div class="row p-2 justify-content-md-center">
+                    <div class="col-4 bg-light">
+                        <div class="row">
+                            <p class="text-start col-8">Coding is my passion</p>
+                            <label class="text-end col-4">04/12</label>
+                        </div>
+                        <img class="object-fit-cover img-fluid" width="550px" height="550px"
+                            src="https://imageio.forbes.com/blogs-images/forbestechcouncil/files/2019/01/canva-photo-editor-8-7.jpg?format=jpg&width=960">
+                        <div class="row">
+                            <div class="col">
+                                <p class="fw-bold text-start">654 Likes</p>
                             </div>
-                            <img class="object-fit-cover" width="550px" height="550px"
-                                src="https://imageio.forbes.com/blogs-images/forbestechcouncil/files/2019/01/canva-photo-editor-8-7.jpg?format=jpg&width=960">
-                            <div class="row">
-                                <div class="col">
-                                    <p class="fw-bold text-start">654 Likes</p>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col">
-                                    <p class="text-start">This is an example of a very good photo that you can post on Instagram</p>
-                                </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <p class="text-start">This is an example of a very good photo that you can post on
+                                    Instagram</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
     </div>
     </div>
 
